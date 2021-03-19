@@ -37,8 +37,3 @@ def insertBLOB(emp_id, collection, photo):
             cursor.close()
             connection.close()
             print("MySQL connection is closed")
-
-insertBLOB(1, "Eric", "D:\Python\Articles\my_SQL\images\eric_photo.png",
-           "D:\Python\Articles\my_SQL\images\eric_bioData.txt")
-insertBLOB(2, "Scott", "D:\Python\Articles\my_SQL\images\scott_photo.png",
-           "D:\Python\Articles\my_SQL\images\scott_bioData.txt")
