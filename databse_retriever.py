@@ -39,7 +39,3 @@ def readBLOB(emp_id, photo, collection):
             print("MySQL connection is closed")
 
 
-readBLOB(1, "D:\Python\Articles\my_SQL\query_output\eric_photo.png",
-         "D:\Python\Articles\my_SQL\query_output\eric_bioData.txt")
-readBLOB(2, "D:\Python\Articles\my_SQL\query_output\scott_photo.png",
-         "D:\Python\Articles\my_SQL\query_output\scott_bioData.txt")
