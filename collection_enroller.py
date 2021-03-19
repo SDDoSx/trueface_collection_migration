@@ -3,7 +3,7 @@ from databse_retriever import readBLOB
 
 """Make sure that visionbox is running"""
 
-size_db = 5 #set the size of your database (number of identities you'll need to enroll)
+size_db = 5 #set the size of your database (number of identities you'll need to enroll)I'm hardcoding the size since this is an example
 
 
 url = "http://0.0.0.0:8080/v1/enroll"
